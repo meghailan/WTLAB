@@ -1,0 +1,60 @@
+/* Split the screen in half */
+.splitleft {
+height: 100%;
+width: 30%; position: fixed; z-index: 1;
+top: 0;
+overflow-x: hidden; padding-top: 20px; left: 0;
+background-color:burlywood; background-image: url(bg.jpg) ; padding-left: 50px;
+}
+
+.splitright { height: 100%;
+width: 70%; position: fixed; z-index: 1;
+top: 0;
+overflow-x: hidden; padding-top: 20px;
+right: 0;
+background-color: rgb(229, 221, 193); text-align: left;
+padding-left: 35px;
+}
+
+h1{
+color: brown;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration-line:overline; font-size:medium;
+}
+
+ 
+h2{
+color: crimson;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:xx-large;
+}
+
+
+h4{
+ color:rgb(85, 3, 3); font-size: medium;
+ text-decoration-line: overline;
+}
+
+p{
+ color:rgb(208, 91, 91); font-size: small; text-align: left;
+ padding-left: 20px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.centered {
+ position: absolute; top: 48%;
+ left: 40%;
+ transform: translate(-50%, -50%); text-align: center;
+
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+ width: 170px;
+ border-radius: 95px; border-color:white; border-style: solid;
+ border-width:thick;
+
+}
+
+
