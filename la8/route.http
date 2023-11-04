@@ -1,0 +1,23 @@
+GET http://localhost:3000/students
+
+###
+GET http://localhost:3000/students/6522ddee93ef971c351b20fb
+
+###
+POST http://localhost:3000/students
+Content-Type: application/json
+{
+    "name" : "Tara",
+    "branch" :"Iot",
+    "dept" : "CSE"
+}
+
+###
+DELETE http://localhost:3000/students/6522db57b2c124a433d6336a
+
+###
+PATCH http://localhost:3000/students/6522ddee93ef971c351b20fb
+Content-Type: application/json
+{
+    "name": "Megha"
+}
